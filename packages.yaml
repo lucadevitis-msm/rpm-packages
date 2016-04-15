@@ -1,0 +1,38 @@
+---
+- name: talend-console
+  version: 5.6.1_20141207_1530
+  release: 1%%{?dist}
+  summary: Talend Console
+  # group:
+  license: Propietary
+  url: http://www.talend.com
+  source:
+    - s3://msm-private-repo/talend/Talend-Installer-Starter-5.6.1-installer.zip
+  # patch:
+  #   - some.patch
+  build_arch: noarch
+  # build_requires:
+  requires: jdk >= 1.7.0_67-fcs
+  # provides:
+  # obsoletes:
+  # conflicts:
+  # build_conflicts:
+  # exclude_arch:
+  # exclusive_arch:
+  description:
+  prep:
+  build:
+  install:
+  check:
+  files:
+  pre:
+  post:
+  preun:
+  postun:
+  pretrans:
+  posttrans:
+  changelog:
+    - date:
+      author:
+      logs:
+        - first release
